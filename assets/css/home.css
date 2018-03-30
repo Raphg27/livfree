@@ -167,3 +167,16 @@ select, input {
   left: 30%;
   width: 500px;
 }
+
+
+
+footer {
+  height: 150px;
+background-color: #e36650;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+
+}
