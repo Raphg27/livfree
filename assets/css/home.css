@@ -1,0 +1,182 @@
+/* GENERAL */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-weight: lighter;
+  color: white;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+    line-height: 2;
+}
+
+li {
+  line-height: 2;
+  font-size: 20px;
+  max-width: 500px;
+}
+
+.page-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../images/hero-bg.jpg");
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo {
+  margin-bottom: 25px;
+  margin-top: 100px;
+  width: 250px;
+}
+
+
+/* Select buttons */
+select, input {
+  -webkit-writing-mode: horizontal-tb;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  border-radius: 5px;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  color: black;
+  background-color: white;
+  cursor: default;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  height: 50px;
+  font-size: 16px;
+  text-indent: 10px;
+  margin-right: 25px;
+}
+
+
+
+.active {
+  opacity: 1;
+  border-color: #000;
+}
+
+.call-to-action {
+  display: flex;
+}
+
+#email {
+  width: 300px;
+}
+
+
+#submit-button {
+  text-align: center;
+  width: 200px;
+  background-color: #e36650;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+#first-screen {
+  width: 450px;
+  margin-top: 120px;
+}
+
+
+
+/* Second section */
+
+.second-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../images/second-bg.jpg");
+  height: 900px;
+  margin-top: 500px;
+}
+
+.second-section-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40%;
+  left: 55%;
+}
+
+/* Third section */
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 150px;
+}
+
+
+.third-section-text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#third-screen {
+  height: 600px;
+  margin-left: 100px;
+}
+
+/* Fourth section */
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 150px 0px 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../images/fourth-bg.jpg");
+  height: 900px;
+}
+
+.fourth-section-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 30%;
+  width: 500px;
+}
+
+
+
+footer {
+  height: 150px;
+background-color: #e36650;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+
+}
