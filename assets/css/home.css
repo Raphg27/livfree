@@ -220,6 +220,13 @@ footer {
     padding: 0px;
   }
 
+  select {
+    margin-right: 0px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
 
 
   #logo {
@@ -229,6 +236,8 @@ footer {
 
   .page-header {
     text-align: center;
+    height: unset;
+    width: unset;
   }
 
   .call-to-action {
@@ -237,13 +246,13 @@ footer {
 
   #first-screen {
     width: 250px;
-    margin-top: 250px;
+    margin-top: 75px;
   }
 
   .second-section {
     background: none;
     height: unset;
-    margin-top: 130px;
+    margin-top: 15px;
   }
 
   #second-screen-mobile {
