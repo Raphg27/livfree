@@ -29,6 +29,10 @@ li {
   max-width: 500px;
 }
 
+a {
+  color: white !important;
+}
+
 .page-header {
   background-size: cover;
   background-repeat: no-repeat;
