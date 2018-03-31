@@ -20,7 +20,7 @@ h3 {
 
 p {
   font-size: 20px;
-    line-height: 2;
+  line-height: 2;
 }
 
 li {
@@ -174,11 +174,135 @@ select, input {
 
 footer {
   height: 150px;
-background-color: #e36650;
-    color: white;
+  background-color: #e36650;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 10px;
+
+}
+
+
+#second-screen-mobile, #fourth-screen-mobile {
+  display: none;
+}
+
+
+/* Responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  li, p {
+    font-size: 16px;
+  }
+
+  input {
+    margin-top: 50px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+
+
+  #logo {
+    width: 150px;
+    margin-top: 50px;
+  }
+
+  .page-header {
+    text-align: center;
+  }
+
+  .call-to-action {
+    flex-direction: column;
+  }
+
+  #first-screen {
+    width: 250px;
+    margin-top: 250px;
+  }
+
+  .second-section {
+    background: none;
+    height: unset;
+    margin-top: 130px;
+  }
+
+  #second-screen-mobile {
     display: flex;
-    justify-content: center;
+    width: 100%;
+  }
+
+  #third-screen {
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .second-section-text {
+    top: 0%;
+    left: 0%;
+    padding: 50px;
+  }
+
+
+  .third-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    word-spacing: 10px;
+    background-color: #f3f3f3;
+  }
+
+  .fourth-section {
+    background: none;
+    height: unset;
+    padding: 0px;
+    display: block;
+  }
+
+  .fourth-section-text {
+    left: 0%;
+    width: unset;
+    padding: 75px 50px 50px 50px;
+  }
+
+  #fourth-screen-mobile {
+    display: flex;
+    width: 100%;
+  }
+
+  footer {
+    font-size: 12px;
+    word-spacing: 2px;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
 }
