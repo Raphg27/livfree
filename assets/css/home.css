@@ -185,6 +185,8 @@ footer {
   justify-content: center;
   align-items: center;
   word-spacing: 10px;
+  text-align: center;
+      line-height: 40px;
 
 }
 
