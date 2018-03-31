@@ -202,7 +202,7 @@ footer {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   h2 {
     font-size: 24px;
   }
@@ -307,8 +307,26 @@ footer {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+  h2 {
+    font-size:24px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  li, p {
+    font-size: 16px;
+  }
 
+  .second-section-text {
+        width: 300px;
+        left: 65%;
+  }
+
+  .fourth-section-text {
+    width: 300px;
+    left: 43%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
