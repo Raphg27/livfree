@@ -55,7 +55,7 @@ a {
 
 /* Select buttons */
 select, input {
-  -webkit-writing-mode: horizontal-tb;
+  -webkit-appearance: none;
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
@@ -68,8 +68,6 @@ select, input {
   border-radius: 5px;
   box-sizing: border-box;
   align-items: center;
-  white-space: pre;
-  -webkit-rtl-ordering: logical;
   color: black;
   background-color: white;
   cursor: default;
