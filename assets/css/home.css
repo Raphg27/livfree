@@ -125,6 +125,7 @@ select, input {
   background-image: url("../../images/second-bg.jpg");
   height: 900px;
   margin-top: 500px;
+  background-color: #ffffff;
 }
 
 .second-section-text {
