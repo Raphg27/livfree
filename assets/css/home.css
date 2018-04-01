@@ -30,9 +30,7 @@ li {
   max-width: 500px;
 }
 
-a {
-  color: white !important;
-}
+
 
 .page-header {
   background-size: cover;
@@ -52,6 +50,56 @@ a {
   width: 250px;
 }
 
+
+/* Language dropdown */
+.languagepicker {
+	background-color: #FFF;
+	display: inline-block;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	transition: all .3s ease;
+	margin: 0 50px 10px 0;
+	vertical-align: top;
+  position: absolute;
+right: 0%;
+top: 5%;
+}
+
+.languagepicker:hover {
+	/* don't forget the 1px border */
+	height: 81px;
+}
+
+.languagepicker a {
+	color: #000;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	padding: 0px 20px;
+	line-height: 40px;
+	border-top: 1px solid #EEE;
+  font-size: 14px;
+}
+
+.languagepicker li:hover {
+	background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+	border: none;
+	background: #FFF !important;
+}
+
+.languagepicker li img {
+	margin-right: 5px;
+}
+
+.roundborders {
+	border-radius: 5px;
+}
 
 /* Select buttons */
 select, input {
