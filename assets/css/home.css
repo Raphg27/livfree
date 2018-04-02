@@ -1,3 +1,30 @@
+/* Modal */
+
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #e36650;
+    color: white;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
+ .close {
+   opacity: 1;
+   color: white;
+   font-weight: normal;
+   font-size: 35px;
+   text-shadow: none;
+ }
+
+ .modal-header .close {
+   margin-top: 0px;
+ }
+
 /* GENERAL */
 
 html, body {
@@ -32,7 +59,7 @@ li {
 
 
 
-.page-header {
+.page-header-livfree {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -100,6 +127,7 @@ top: 5%;
 .roundborders {
 	border-radius: 5px;
 }
+
 
 /* Select buttons */
 select, input {
