@@ -266,6 +266,10 @@ footer {
 
 }
 
+#mail-link {
+  color: white !important;
+}
+
 
 #second-screen-mobile, #fourth-screen-mobile {
   display: none;
