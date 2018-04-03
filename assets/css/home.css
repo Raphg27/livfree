@@ -329,21 +329,6 @@ footer {
     padding: 0 8px;
   }
 
-  .languagepicker:focus {
-  	/* don't forget the 1px border */
-  	height: 81px;
-  }
-
-  .languagepicker:active {
-  	/* don't forget the 1px border */
-  	height: 81px;
-  }
-
-  .languagepicker:hover {
-  	/* don't forget the 1px border */
-  	height: unset;
-  }
-
 
   #logo {
     width: 150px;
