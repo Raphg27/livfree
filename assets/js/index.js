@@ -6,6 +6,9 @@ $(document).ready(function(){
     e.preventDefault()
   });
   $(".email-form").on('submit', function(){
-   $('#myModal').show();
+    $(window).load(function(){
+    $('.modal').modal('show');
+});
+
 })
 });
