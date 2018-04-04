@@ -16,11 +16,11 @@
   <script src="assets/js/index.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116875076-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-116875076-1');
+  gtag('config', 'UA-116875076-1');
   </script>
 </head>
 
@@ -41,27 +41,27 @@
       <option value="other">Other</option>
     </select>
   -->
-  <form data-remote="true" class="email-form">
+  <form class="email-form" onsubmit="return false">
     <input type="email" name="Email" placeholder="Email" id="email">
-    <input type="submit"  id="submit-button" value="Télécharger">
-      </form>
-    <!-- Modal -->
-<div class="modal fade"  role="dialog">
-  <div class="modal-dialog">
+    <input type="submit"  id="submit-button" value="Télécharger" onclick="displayModal()">
+  </form>
+  <!-- Modal -->
+  <div class="modal fade"  role="dialog">
+    <div class="modal-dialog">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Merci pour votre inscription!</h3>
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Merci pour votre inscription!</h3>
+        </div>
+        <div class="modal-body">
+          <p>Malheureusement, LivFree n'est pas encore disponible. Vous serez informés par mail lorsque vous pourrez télécharger l'application.</p>
+        </div>
       </div>
-      <div class="modal-body">
-        <p>Malheureusement, LivFree n'est pas encore disponible. Vous serez informés par mail lorsque vous pourrez télécharger l'application.</p>
-      </div>
+
     </div>
-
   </div>
-</div>
 </div>
 <img src="images/first-screen.png" alt="first-screen" id="first-screen" data-aos="fade-up" data-aos-duration="2000">
 </div>
