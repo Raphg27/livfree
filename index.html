@@ -41,11 +41,12 @@
       <option value="other">Other</option>
     </select>
   -->
-  <form data-remote="true">
+  <form data-remote="true" class="email-form">
     <input type="email" name="Email" placeholder="Email" id="email">
-    <input type="button"  id="submit-button" value="Download"  data-toggle="modal" data-target="#myModal">
+    <input type="submit"  id="submit-button" value="Download">
+  </form>
     <!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog">
+<div class="modal fade" class="myModal" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -58,10 +59,8 @@
         <p>Unfortunately, LivFree is not fully ready yet. You will receive an email when it can be downloaded.</p>
       </div>
     </div>
-
   </div>
 </div>
-  </form>
 </div>
 <img src="images/first-screen.png" alt="first-screen" id="first-screen" data-aos="fade-up" data-aos-duration="2000">
 </div>
@@ -96,7 +95,9 @@
   <img src="images/fourth-screen-mobile.png" alt="fourth-screen-mobile" id="fourth-screen-mobile" >
 </div>
 
+<!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4449317.js"></script>
+<!-- End of HubSpot Embed Code -->
 </body>
 
 <footer>
