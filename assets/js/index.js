@@ -5,9 +5,7 @@ $(document).ready(function(){
   $(".languagepicker > a:first-child").on("click",function(e){
     e.preventDefault()
   });
+  function displayModal() {
+    $('.modal').modal('show');
+  }
 });
-
-
-function displayModal() {
-  $('.modal').modal('show');
-}
