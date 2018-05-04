@@ -267,6 +267,12 @@ footer {
 
 }
 
+footer a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
 #mail-link {
   color: white !important;
 }
