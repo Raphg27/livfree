@@ -95,7 +95,7 @@ top: 5%;
 
 .languagepicker:hover {
 	/* don't forget the 1px border */
-	height: 165px;
+	height: 205px;
 }
 
 .languagepicker a {
@@ -230,6 +230,93 @@ select, input {
 #third-screen {
   height: 600px;
   margin-left: 100px;
+}
+
+/* Testimonials */
+
+#fh5co-testimonials {
+  padding: 7em 0;
+  background-color: #ffffff;
+}
+
+#fh5co-testimonials .section-heading h2 {
+  color: #52d3aa;
+  padding-bottom: 50px;
+}
+#fh5co-testimonials .section-heading h2:after {
+  background: #52d3aa;
+}
+#fh5co-testimonials .section-heading .subtext h3 {
+  color: #52d3aa;
+}
+#fh5co-testimonials .box-testimony {
+  margin-bottom: 2em;
+  float: left;
+}
+#fh5co-testimonials .box-testimony a {
+  color: #52d3aa;
+}
+#fh5co-testimonials .box-testimony a:hover, #fh5co-testimonials .box-testimony a:focus, #fh5co-testimonials .box-testimony a:active {
+  color: white;
+  text-decoration: none;
+}
+#fh5co-testimonials .box-testimony blockquote {
+  padding-left: 0;
+  border-left: none;
+  padding: 40px;
+  background: #52d3aa;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  color: white;
+}
+#fh5co-testimonials .box-testimony blockquote:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  border-top: 15px solid black;
+  border-top-color: #52d3aa;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+#fh5co-testimonials .box-testimony blockquote .quote {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 0;
+  display: table;
+  color: #52d3aa;
+  width: 56px;
+  height: 56px;
+  margin-top: -30px;
+  background: #52d3aa;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#fh5co-testimonials .box-testimony blockquote .quote > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+#fh5co-testimonials .box-testimony blockquote p {
+  font-style: italic;
+}
+#fh5co-testimonials .box-testimony .author {
+  line-height: 20px;
+  color: #52d3aa;
+  font-size: 20px;
+  margin-left: 25px;
+}
+#fh5co-testimonials .box-testimony .author .subtext {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
 }
 
 /* Fourth section */
